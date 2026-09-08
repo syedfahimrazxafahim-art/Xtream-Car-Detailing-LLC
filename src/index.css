@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --color-matte-black: #050505;
+  --color-charcoal: #101010;
+  --color-surface-card: #141414;
+  --color-surface-hover: #1c1c1c;
+  --color-gold: #FFC400;
+  --color-orange-brand: #F58220;
+  --color-red-brand: #D92820;
+}
+
+body {
+  background-color: #050505;
+  color: #FFFFFF;
+  font-family: var(--font-body), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+button, 
+a, 
+input[type="submit"], 
+input[type="button"], 
+select, 
+[role="button"] {
+  cursor: pointer !important;
+}
+
+.font-heading {
+  font-family: var(--font-heading), Impact, sans-serif;
+}
+
+/* Racing line accents */
+.racing-gradient-text {
+  background: linear-gradient(135deg, #FFC400 0%, #F58220 50%, #D92820 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.racing-gradient-bg {
+  background: linear-gradient(135deg, #FFC400 0%, #F58220 50%, #D92820 100%);
+}
+
+.racing-gradient-border {
+  border-image: linear-gradient(135deg, #FFC400 0%, #F58220 50%, #D92820 100%) 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F58220;
+}

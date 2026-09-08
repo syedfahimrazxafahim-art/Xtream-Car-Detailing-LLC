@@ -1,0 +1,6 @@
+{
+  "name": "Xtreme Detail LLC",
+  "description": "Premium automotive detailing and car washing business based in San Francisco, California. High-performance showroom finish and surface protection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
